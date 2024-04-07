@@ -1,5 +1,7 @@
 Software Requirements Document
 ===
+This document tries its best to describe the purpose, business needs, users, and the time it will take to complete.
+
 # Introduction
 
 ## Purpose
