@@ -1,0 +1,31 @@
+{
+  "name": "any-send",
+  "version": "0.0.1",
+  "description": "A temporary file uploading web app that allows anyone to quickly send and download temporary files anywhere, anytime, any platform.",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/john29917958/any-send.git"
+  },
+  "keywords": [
+    "any",
+    "send",
+    "temp",
+    "file",
+    "transfer"
+  ],
+  "author": "Tzu-Chao Wang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/john29917958/any-send/issues"
+  },
+  "homepage": "https://github.com/john29917958/any-send#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-async-handler": "^1.2.0"
+  }
+}
