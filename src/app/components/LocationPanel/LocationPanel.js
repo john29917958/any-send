@@ -1,5 +1,6 @@
 import { View, StyleSheet } from "react-native";
 import { Button, Text } from "react-native-paper";
+import Level from "./Level";
 
 const LocationPanel = (props) => {
   const fullPath = props.path;
@@ -8,16 +9,7 @@ const LocationPanel = (props) => {
   let elements = [];
   for (const segment of segments) {
     elements.push(<Text style={styles.element}>/</Text>);
-    elements.push(
-      <Button
-        mode="text"
-        onPress={() => {
-          console.log("Segment pressed");
-        }}
-      >
-        {segment}
-      </Button>
-    );
+    elements.push(<Level name={segment}></Level>);
   }
 
   return <View style={styles.container}>{elements}</View>;
