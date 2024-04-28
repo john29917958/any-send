@@ -5,6 +5,7 @@ import { lightScheme, darkScheme } from "./styles/colorSchemes";
 import LocationPanel from "./components/LocationPanel/LocationPanel";
 import ApplicationBar from "./components/ApplicationBar";
 import FileSystemItem from "./components/FileSystem/FileSystemItem";
+import Toolbar from "./components/Toolbar";
 
 export default function App() {
   const colorScheme = useColorScheme();
@@ -21,6 +22,7 @@ export default function App() {
       <FileSystemItem />
       <FileSystemItem />
       <FileSystemItem />
+      <Toolbar />
     </PaperProvider>
   );
 }
